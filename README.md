@@ -20,7 +20,7 @@ Browser extension for generating SubScraper-compatible `auth-feather.json` / `au
 
 These steps MAY work on other Chromium-based browsers, such as Brave, Microsoft Edge, Vivaldi and Opera (to name a few).
 
-1. Download the latest chrome `.zip` file from the [releases page](https://github.com/whimsical-c4lic0/SubScraper-Auth-Helper/releases). The `.zip` file will have the prefix `OF-DL_Auth_Helper-chrome-`. DO NOT download the `Source code (.zip)` file. It will not work as an extension.
+1. Download the latest chrome `.zip` file from the [releases page](https://github.com/whimsical-c4lic0/SubScraper-Auth-Helper/releases). The `.zip` file will have the prefix `SubScraper_Auth_Helper-chrome-`. DO NOT download the `Source code (.zip)` file. It will not work as an extension.
 2. Extract the `.zip` file to a folder of your choice
 3. Open the extensions page in your browser (e.g. `chrome://extensions`)
 4. Enable "Developer mode" (usually a toggle in the top-right corner)
