@@ -2,7 +2,7 @@ const containerNames = {};
 const containersEnabled = browser.contextualIdentities !== undefined;
 const desiredCookies = ['auth_id', 'sess'];
 const isChromiumBased = /(Chrome|Chromium)\//.test(navigator.userAgent);
-const releasesPageUrl = 'https://github.com/whimsical-c4lic0/OF-DL-Auth-Helper/releases';
+const releasesPageUrl = 'https://github.com/whimsical-c4lic0/SubScraper-Auth-Helper/releases';
 
 /**
  * Get the correct bcToken from storage
@@ -237,7 +237,7 @@ async function displayAuthConfig(cookieStoreId) {
     const file = new Blob([authJson], {type: 'text/plain'});
     const downloadBtn = document.getElementById('download-file');
     downloadBtn.href = URL.createObjectURL(file);
-    downloadBtn.download = 'auth.json';
+    downloadBtn.download = 'auth-feather.json';
 }
 
 /**

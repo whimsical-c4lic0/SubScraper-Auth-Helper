@@ -1,4 +1,4 @@
-const releasesPageUrl = 'https://github.com/whimsical-c4lic0/OF-DL-Auth-Helper/releases';
+const releasesPageUrl = 'https://github.com/whimsical-c4lic0/SubScraper-Auth-Helper/releases';
 
 function formatDate(timestamp) {
     if (!timestamp) {

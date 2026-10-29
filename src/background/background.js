@@ -1,7 +1,7 @@
 const USER_SCRIPT_ID = 'show_additional_message_details';
 const USER_SCRIPT_MATCHES = ['https://onlyfans.com/*', 'https://*.onlyfans.com/*'];
-const UPDATE_FEED_URL = 'https://github.com/whimsical-c4lic0/OF-DL-Auth-Helper/releases.atom';
-const RELEASES_PAGE_URL = 'https://github.com/whimsical-c4lic0/OF-DL-Auth-Helper/releases';
+const UPDATE_FEED_URL = 'https://github.com/whimsical-c4lic0/SubScraper-Auth-Helper/releases.atom';
+const RELEASES_PAGE_URL = 'https://github.com/whimsical-c4lic0/SubScraper-Auth-Helper/releases';
 const UPDATE_CHECK_ALARM_NAME = 'dailyExtensionVersionCheck';
 const UPDATE_CHECK_INTERVAL_MS = 24 * 60 * 60 * 1000;
 const UPDATE_STORAGE_KEYS = [

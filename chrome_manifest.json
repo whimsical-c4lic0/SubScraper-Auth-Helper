@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "OF-DL Auth Helper",
+    "name": "SubScraper Auth Helper",
     "version": "0.0.11",
-    "description": "Helper extension that makes it easier to copy auth.json values for the OF-DL",
+    "description": "Helper extension that makes it easier to copy auth-feather.json values for the SubScraper",
     "icons": {
         "48": "icons/cookie.png"
     },
@@ -19,14 +19,14 @@
     "host_permissions": [
         "*://onlyfans.com/*",
         "*://*.onlyfans.com/*",
-        "https://github.com/whimsical-c4lic0/OF-DL-Auth-Helper/*"
+        "https://github.com/whimsical-c4lic0/SubScraper-Auth-Helper/*"
     ],
     "action": {
         "browser_style": true,
         "default_icon": {
             "48": "icons/cookie.png"
         },
-        "default_title": "OF-DL Auth Helper",
+        "default_title": "SubScraper Auth Helper",
         "default_popup": "popup/cookies.html"
     },
     "options_ui": {
