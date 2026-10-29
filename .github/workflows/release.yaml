@@ -60,7 +60,7 @@ jobs:
           apiSecret: ${{ secrets.FIREFOX_JWT_SECRET }}
 
       - name: Rename Firefox extension
-        run: mv ${{ steps.firefox_sign.outputs.target }} dist/OF-DL_Auth_Helper-firefox-${{ steps.firefox_version.outputs.value }}.xpi
+        run: mv ${{ steps.firefox_sign.outputs.target }} dist/SubScraper_Auth_Helper-firefox-${{ steps.firefox_version.outputs.value }}.xpi
 
       - name: Prepare for Chrome build
         run: |
@@ -70,7 +70,7 @@ jobs:
         uses: cardinalby/webext-buildtools-pack-extension-dir-action@v1
         with:
           extensionDir: build
-          zipFilePath: dist/OF-DL_Auth_Helper-chrome-${{ steps.chrome_version.outputs.value }}.zip
+          zipFilePath: dist/SubScraper_Auth_Helper-chrome-${{ steps.chrome_version.outputs.value }}.zip
 
       - name: Upload artifacts
         uses: softprops/action-gh-release@v1
@@ -80,5 +80,5 @@ jobs:
           draft: true
           fail_on_unmatched_files: true
           files: |
-            dist/OF-DL_Auth_Helper-firefox-${{ steps.firefox_version.outputs.value }}.xpi
-            dist/OF-DL_Auth_Helper-chrome-${{ steps.chrome_version.outputs.value }}.zip
+            dist/SubScraper_Auth_Helper-firefox-${{ steps.firefox_version.outputs.value }}.xpi
+            dist/SubScraper_Auth_Helper-chrome-${{ steps.chrome_version.outputs.value }}.zip
